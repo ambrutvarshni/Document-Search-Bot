@@ -1,0 +1,56 @@
+/* General Dark Background */
+body, .gradio-container {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+h1, h2, h3, .gr-markdown {
+    color: #1E90FF !important;
+}
+
+/* Buttons */
+button, .gr-button {
+    background-color: #1E90FF !important;
+    color: #ffffff !important;
+    border-radius: 12px !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important;
+}
+button:hover, .gr-button:hover {
+    background-color: #00BFFF !important;
+    transform: translateY(-2px);
+}
+
+/* Textboxes and Dropdowns */
+input[type=text], textarea, select, .gr-textbox, .gr-dropdown {
+    border-radius: 8px !important;
+    padding: 10px !important;
+    border: 1px solid #555 !important;
+    background-color: #1c1c1c !important;
+    color: #ffffff !important;
+}
+
+/* Group Boxes */
+.gr-group {
+    background-color: #1c1c1c !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    margin: 20px auto !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6) !important;
+}
+
+/* Centered Login */
+.login-box {
+    max-width: 400px;
+    margin: 50px auto !important;
+    text-align: center;
+}
+
+/* Output Textbox */
+.gr-textbox[interactive="false"] {
+    background-color: #222 !important;
+    color: #00FF00 !important; /* For upload success, etc */
+}

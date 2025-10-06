@@ -1,0 +1,7 @@
+gradio==3.42.0
+openai==1.31.0
+PyPDF2==3.1.0
+python-docx==0.8.11
+pandas==2.1.1
+python-pptx==0.6.21
+faiss-cpu==1.7.4
