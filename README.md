@@ -1,8 +1,6 @@
 # Document Search Bot
 
-Professional, minimal Document Q&A system built with Gradio and sentence-transformers.
-
-This single-file Python app provides a simple Admin and User experience:
+ Document Q&A system built with Gradio and sentence-transformers.
 
 - Admin can upload or delete documents (PDF, Word, Excel, PowerPoint) up to 2 MB.
 - User can ask questions and receive answers sourced from the uploaded documents.
@@ -27,7 +25,6 @@ Everything runs in-memory. The app extracts text from uploaded files, splits the
 ## Prerequisites
 
 - Python 3.10+ (Python 3.13 tested in development).
-- A machine with internet access (to download models on first run).
 
 ## Installation
 
@@ -47,12 +44,6 @@ pip install -r requirements.txt
 ```
 
 Note: The first run may download the `all-MiniLM-L6-v2` sentence-transformers model (a few hundred MB). Ensure you have enough disk space and a stable connection.
-
-## Configuration
-
-No API keys or credentials are required. The project uses the local `SentenceTransformer` model for embeddings; OpenAI is not used in this implementation.
-
-Files are restricted to 2 MB each by default. Adjust `MAX_FILE_SIZE` in `main.py` if you need a different limit.
 
 ## Usage
 
@@ -84,7 +75,3 @@ A Gradio web interface will open in your browser. Steps:
 - Replace local embeddings with OpenAI embeddings by swapping the `get_embedding` implementation.
 - Add richer conversational responses by integrating an LLM for answer synthesis.
 - Improve chunking and context windows for better precision.
-
-## License
-
-Provided as-is for educational and prototyping purposes. No license is attached—please adapt for your needs.
