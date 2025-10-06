@@ -74,4 +74,13 @@ A Gradio web interface will open in your browser. Steps:
 
 - Replace local embeddings with OpenAI embeddings by swapping the `get_embedding` implementation.
 - Add richer conversational responses by integrating an LLM for answer synthesis.
-- Improve chunking and context windows for better precision.
+
+
+
+
+- Imp
+
+https://github.com/user-attachments/assets/88e9a118-b125-42b0-8dbd-1740e080f111
+
+rove chunking and context windows for better precision.
+[Document_QA_System_Documentation.docx](https://github.com/user-attachments/files/22725149/Document_QA_System_Documentation.docx)
